@@ -16,5 +16,3 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-
-git clone https://${USER_TOKEN}@github.com/${USER_NAME}/OpenXray.git package/luci-app-OpenXray
