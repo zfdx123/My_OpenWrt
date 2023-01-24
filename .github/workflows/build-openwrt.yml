@@ -79,7 +79,7 @@ jobs:
     - name: Clone XCode
       run: |
         cd openwrt
-        git clone https://${{ secrets.USER_TOKEN }}@github.com/${{ secrets.USER_NAME }}/OpenXray.git
+        git clone https://${{ secrets.USER_TOKEN }}@github.com/${{ secrets.USER_NAME }}/OpenXray.git package/OpenXray
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
